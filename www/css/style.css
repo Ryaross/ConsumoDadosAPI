@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.firstContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.iconApp{
+    font-size: 4.4rem;
+    color: #35187f;
+}
+
+button{
+    border: none;
+    border-radius: 0.7rem;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    margin: 0.7rem;
+    background: #35187f;
+    color: #fff;
+}
+
+/* SecondSection */
+
+.dados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dados .convert{
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+}
+
+.dados .result{
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+}
+
+#dolar{
+    border: none;
+    border-radius: 0.7rem;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem;
+    width: 80%;
+    margin: 0.7rem;
+    background: #35187f;
+    color: #fff;
+}
+
+.titletwo{
+    margin-bottom: 1.5rem;
+    color: #35187f;
+}
+
+#voltar{
+    text-align: end;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    font-size: 2rem;
+    background: #fff;
+    color: #35187f;
+}
+
+/* ThirdSection */
+
+.btnConvert{
+    background: none;
+    padding: 1rem;
+    color: #35187f;
+    font-size: 2rem;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+  border: 0.5px solid #35187f;
+  width: 80%;
+}
+
+.select{
+    padding: 1rem;
+    width: 80%;
+    border-radius: 0.7rem;
+    border: none;
+}
+
+.btnSelect{
+     border: none;
+    border-radius: 0.7rem;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem;
+    width: 80%;
+    margin: 0.7rem;
+    background: #35187f;
+    color: #fff;   
+}
